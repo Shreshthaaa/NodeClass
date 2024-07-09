@@ -39,7 +39,7 @@ fs.rename('file.txt', 'f1.txt', (err) => {
   }
   console.log('File has been renamed');
 });
-const p = 'C:/Users/pooja/NodeClass/Class/file.txt';
+const p = 'C:/Users/paliw/node-pr/class/file.txt';
 const path = require("path");
 
 const dirname = path.dirname(p);
@@ -48,15 +48,15 @@ const extension = path.extname(p);
 console.log(dirname);
 console.log(extension);
 
-// get the path of the folder
-// get the path of the file
+// // get the path of the folder
+// // get the path of the file
 
 // copy the file from a source to dst
 const fs = require('fs');
 const path = require('path');
-const sourcePath = 'C:/Users/pooja/NodeClass/Class/file.txt';
-const destDir = 'C:/Users/pooja/NodeClass/dir1';
-const destination = 'C:/Users/pooja/NodeClass/dir1/f1.txt';
+const sourcePath = 'C:/User/paliw/node-pr/file.txt';
+const destDir = 'C:/Users/paliw/node-pr/class/dir1';
+const destination = 'C:/Users/paliw/node-pr/dir1/f1.txt';
 const basename = path.basename(sourcePath);
 const dest = path.join(destDir, basename);
 // fs.copyFileSync(sourcePath, destination);
